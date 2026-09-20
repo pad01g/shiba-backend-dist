@@ -1,0 +1,17 @@
+{
+  "endpoints": [
+    {
+      "name": "home",
+      "ws": "wss://gateway.tail2668e8.ts.net/shiba/ws",
+      "http": "https://gateway.tail2668e8.ts.net/shiba"
+    }
+  ],
+  "iceServers": [
+    {
+      "urls": [
+        "stun:stun.cloudflare.com:3478",
+        "stun:stun.l.google.com:19302"
+      ]
+    }
+  ]
+}
